@@ -1,0 +1,21 @@
+{
+  "name": "tal-fe-snippets",
+  "displayName": "TAL-FE-Snippets",
+  "description": "some code template for our vue project",
+  "version": "0.0.1",
+  "publisher": "dreambo8563",
+  "engines": {
+    "vscode": "^1.26.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      }
+    ]
+  }
+}

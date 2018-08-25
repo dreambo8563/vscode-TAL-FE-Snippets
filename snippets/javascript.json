@@ -1,0 +1,17 @@
+{
+  "tal.form.submit": {
+    "prefix": "tal-submit",
+    "body": [
+      "submitForm(formName) {",
+      "\tthis.$refs[formName].validate(valid => {",
+      "\tif (valid) {",
+      "\t// TODO: get the postData and ajax",
+      " } else {",
+      "\treturn false",
+      "\t\t}",
+      "\t})",
+      "}"
+    ],
+    "description": "Code snippet for form submit method"
+  }
+}
