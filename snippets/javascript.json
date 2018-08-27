@@ -14,9 +14,14 @@
     ],
     "description": "Code snippet for form submit method"
   },
-  "tal.import.api": {
+  "tal.import.url": {
     "prefix": "tiu",
     "body": ["import { } from \"@/constants/URL\""],
     "description": "Code snippet for import url"
+  },
+  "tal.import.text": {
+    "prefix": "tit",
+    "body": ["import { } from \"@/constants/TEXT\""],
+    "description": "Code snippet for import text"
   }
 }
