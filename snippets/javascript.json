@@ -23,5 +23,10 @@
     "prefix": "tit",
     "body": ["import { } from \"@/constants/TEXT\""],
     "description": "Code snippet for import text"
+  },
+  "tal.import.api": {
+    "prefix": "tia",
+    "body": ["import { } from \"@/constants/API\""],
+    "description": "Code snippet for import api"
   }
 }
