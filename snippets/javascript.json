@@ -61,5 +61,26 @@
       "}"
     ],
     "description": "Code snippet to watch filter change and refresh data"
+  },
+  "tal.form.rules-data": {
+    "prefix": "tfr",
+    "body": [
+      "rules: {",
+      "\tname: [",
+      "\t\t{ required: true, message: '请输入活动名称', trigger: 'blur' },",
+      "\t\t{ min: 3, max: 5, message: '长度在 3 到 5 个字符', trigger: 'blur' }",
+      "\t],",
+      "\tregion: [",
+      "\t\t{ required: true, message: '请选择活动区域', trigger: 'change' }",
+      "\t],",
+      "\tdate1: [",
+      "\t\t{ type: 'date', required: true, message: '请选择日期', trigger: 'change' }",
+      "\t],",
+      "\ttype: [",
+      "\t\t{ type: 'array', required: true, message: '请至少选择一个活动性质', trigger: 'change' }",
+      "\t],",
+      "}"
+    ],
+    "description": "Code snippet for form rules"
   }
 }
