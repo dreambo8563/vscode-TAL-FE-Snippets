@@ -1,12 +1,17 @@
 {
   "name": "tal-fe-snippets",
-  "displayName": "TAL-FE-Snippets",
-  "description": "some code template for our vue project",
-  "version": "0.0.1",
+  "displayName": "TAL-FE-ElementUI-Snippets",
+  "description": "some code template for our vue project based on element-ui",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dreambo8563/vscode-TAL-FE-Snippets.git"
+  },
   "publisher": "dreambo8563",
   "engines": {
     "vscode": "^1.26.0"
   },
+  "icon": "images/icon.png",
   "categories": [
     "Snippets"
   ],
