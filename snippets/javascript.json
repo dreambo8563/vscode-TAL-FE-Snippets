@@ -98,5 +98,30 @@
       "};"
     ],
     "description": "Code snippet for custormized validate rule"
+  },
+  "tal.message.success": {
+    "prefix": "tms",
+    "body": [
+      "this.$message({",
+      "\tmessage: '恭喜你，这是一条成功消息',",
+      "\ttype: 'success'",
+      "});"
+    ],
+    "description": "Code snippet for success message"
+  },
+  "tal.message.warning": {
+    "prefix": "tmw",
+    "body": [
+      "this.$message({",
+      "\tmessage: '警告哦，这是一条警告消息',",
+      "\ttype: 'warning'",
+      "});"
+    ],
+    "description": "Code snippet for warning message"
+  },
+  "tal.message.error": {
+    "prefix": "tme",
+    "body": ["this.$message.error('错了哦，这是一条错误消息');"],
+    "description": "Code snippet for error message"
   }
 }

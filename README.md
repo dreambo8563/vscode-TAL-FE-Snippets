@@ -14,6 +14,12 @@ Just for TAL group FE team, based on our template project and ElementUI
 
 Users appreciate release notes as you update your extension.
 
+### 0.0.4
+
+- tms -> tal.message.success
+- tmw -> tal.message.warning
+- tme -> tal.message.error
+
 ### 0.0.3
 
 - quickfix for tal.form.watch-refresh
