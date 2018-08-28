@@ -1,6 +1,6 @@
 {
   "tal.form.submit": {
-    "prefix": "tal-submit",
+    "prefix": "tfs",
     "body": [
       "submitForm(formName) {",
       "\tthis.$refs[formName].validate(valid => {",
@@ -28,5 +28,15 @@
     "prefix": "tia",
     "body": ["import { } from \"@/constants/API\""],
     "description": "Code snippet for import api"
+  },
+  "tal.list.pagination": {
+    "prefix": "tlp",
+    "body": [
+      "handleCurrentChange(val) {",
+      "\tthis.currentPage = val;",
+      "\tthis.refreshList(params)",
+      "}"
+    ],
+    "description": "Code snippet for pagination method"
   }
 }
