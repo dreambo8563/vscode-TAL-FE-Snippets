@@ -57,7 +57,7 @@
       "\t\tthis.currentPage = 1;",
       "\t\t// TODO:this.refreshList(data);",
       "\t}",
-      "\tdeep: true;",
+      "\tdeep: true,",
       "\timmediate: true",
       "}"
     ],

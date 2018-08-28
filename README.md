@@ -51,9 +51,9 @@ filterForm: {
         const data = {}
         this.currentPage = 1
         // TODO:this.refreshList(data);
-        deep: true
-        immediate: true
-      }
+      },
+      deep: true,
+      immediate: true
     }
 ```
 
