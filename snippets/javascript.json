@@ -34,7 +34,7 @@
     "body": [
       "handleCurrentChange(val) {",
       "\tthis.currentPage = val;",
-      "\tthis.refreshList(params)",
+      "\t// TODO:this.refreshList(params)",
       "}"
     ],
     "description": "Code snippet for pagination method"
@@ -55,7 +55,7 @@
       "\thandler: function(v) {",
       "\t\tconst data = {}",
       "\t\tthis.currentPage = 1;",
-      "\t\tthis.refreshList(data);",
+      "\t\t// TODO:this.refreshList(data);",
       "\tdeep: true;",
       "\timmediate: true",
       "}"
@@ -82,5 +82,20 @@
       "}"
     ],
     "description": "Code snippet for form rules"
+  },
+  "tal.form.validate-methods": {
+    "prefix": "tfvm",
+    "body": [
+      "const validatePass = (rule, value, callback) => {",
+      "\tif (value === '') {",
+      "\t\tcallback(new Error('请再次输入密码'));",
+      "\t} else if (value !== this.ruleForm2.pass) {",
+      "\t\tcallback(new Error('两次输入密码不一致!'));",
+      "\t} else {",
+      "\t\tcallback();",
+      "\t}",
+      "};"
+    ],
+    "description": "Code snippet for custormized validate rule"
   }
 }
