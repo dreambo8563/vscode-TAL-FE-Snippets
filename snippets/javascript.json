@@ -47,5 +47,19 @@
       "}"
     ],
     "description": "Code snippet to reset form"
+  },
+  "tal.form.watch-refresh": {
+    "prefix": "tfw",
+    "body": [
+      "filterForm: {",
+      "\thandler: function(v) {",
+      "\t\tconst data = {}",
+      "\t\tthis.currentPage = 1;",
+      "\t\tthis.refreshList(data);",
+      "\tdeep: true;",
+      "\timmediate: true",
+      "}"
+    ],
+    "description": "Code snippet to watch filter change and refresh data"
   }
 }
