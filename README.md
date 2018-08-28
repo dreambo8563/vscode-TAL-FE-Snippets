@@ -14,6 +14,10 @@ Just for TAL group FE team, based on our template project and ElementUI
 
 Users appreciate release notes as you update your extension.
 
+### 0.0.3
+
+- quickfix for tal.form.watch-refresh
+
 ### 0.0.2
 
 - add plugin icon

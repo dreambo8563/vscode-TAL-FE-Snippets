@@ -56,9 +56,9 @@
       "\t\tconst data = {}",
       "\t\tthis.currentPage = 1;",
       "\t\t// TODO:this.refreshList(data);",
+      "\t}",
       "\tdeep: true;",
       "\timmediate: true",
-      "\t}",
       "}"
     ],
     "description": "Code snippet to watch filter change and refresh data"
