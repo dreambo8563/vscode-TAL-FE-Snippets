@@ -38,5 +38,14 @@
       "}"
     ],
     "description": "Code snippet for pagination method"
+  },
+  "tal.form.reset": {
+    "prefix": "tfr",
+    "body": [
+      "resetForm(formName) {",
+      "\tthis.$refs[formName].resetFields();",
+      "}"
+    ],
+    "description": "Code snippet to reset form"
   }
 }
