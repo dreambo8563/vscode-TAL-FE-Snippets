@@ -1,0 +1,84 @@
+{
+  "tal.form.container": {
+    "prefix": "tfc",
+    "body": [
+      "<el-form :model=\"ruleForm\" :rules=\"rules\" ref=\"ruleForm\" label-width=\"100px\" class=\"demo-ruleForm\">",
+      "\t<el-form-item>",
+      "\t\t<el-button type=\"primary\" @click=\"submitForm('ruleForm')\">立即创建</el-button>",
+      "\t\t<el-button @click=\"resetForm('ruleForm')\">重置</el-button>",
+      "\t</el-form-item>",
+      "</el-form>"
+    ],
+    "description": "basic form container"
+  },
+  "tal.form.input": {
+    "prefix": "tfi",
+    "body": [
+      "<el-form-item label=\"活动名称\" prop=\"name\">",
+      "\t<el-input v-model=\"ruleForm.name\"></el-input>",
+      "</el-form-item>"
+    ],
+    "description": "input as formItem"
+  },
+  "tal.form.select": {
+    "prefix": "tfs",
+    "body": [
+      "<el-form-item label=\"活动区域\" prop=\"region\">",
+      "\t<el-select v-model=\"ruleForm.region\" placeholder=\"请选择活动区域\">",
+      "\t\t<el-option label=\"区域一\" value=\"shanghai\"></el-option>",
+      "\t</el-select>",
+      "</el-form-item>"
+    ],
+    "description": "select as formItem"
+  },
+  "tal.form.datepicker": {
+    "prefix": "tfdp",
+    "body": [
+      "<el-form-item label=\"活动时间\" prop=\"date1\">",
+      "\t<el-date-picker type=\"date\" placeholder=\"选择日期\" v-model=\"ruleForm.date1\" style=\"width: 100%;\"></el-date-picker>",
+      "</el-form-item>"
+    ],
+    "description": "datepicker as formItem"
+  },
+  "tal.form.timepicker": {
+    "prefix": "tftp",
+    "body": [
+      "<el-form-item label=\"活动时间\" prop=\"date2\">",
+      "\t<el-time-picker type=\"fixed-time\" placeholder=\"选择时间\" v-model=\"ruleForm.date2\" style=\"width: 100%;\"></el-time-picker>",
+      "</el-form-item>"
+    ],
+    "description": "timepicker as formItem"
+  },
+  "tal.form.switch": {
+    "prefix": "tfs",
+    "body": [
+      "<el-form-item label=\"即时配送\" prop=\"delivery\">",
+      "\t<el-switch v-model=\"ruleForm.delivery\"></el-switch>",
+      "</el-form-item>"
+    ],
+    "description": "switch as formItem"
+  },
+  "tal.form.checkboxgroup": {
+    "prefix": "tfcg",
+    "body": [
+      "<el-form-item label=\"活动性质\" prop=\"type\">",
+      "\t<el-checkbox-group v-model=\"ruleForm.type\">",
+      "\t\t<el-checkbox label=\"美食/餐厅线上活动\" name=\"type\"></el-checkbox>",
+      "\t\t<el-checkbox label=\"地推活动\" name=\"type\"></el-checkbox>",
+      "\t</el-checkbox-group>",
+      "</el-form-item>"
+    ],
+    "description": "checkboxgroup as formItem"
+  },
+  "tal.form.radiogroup": {
+    "prefix": "tfrg",
+    "body": [
+      "<el-form-item label=\"特殊资源\" prop=\"resource\">",
+      "\t<el-radio-group v-model=\"ruleForm.resource\">",
+      "\t\t<el-radio label=\"线上品牌商赞助\"></el-radio>",
+      "\t</el-radio-group>",
+      "</el-form-item>"
+    ],
+    "description": "radiogroup as formItem"
+  }
+}

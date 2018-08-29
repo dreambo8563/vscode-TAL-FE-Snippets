@@ -1,4 +1,4 @@
-# tal-fe-snippets README
+# README
 
 To have a better coding efficiency, we need a tool to help us repreat lots of code template, based on element-ui
 
@@ -9,10 +9,89 @@ Just for TAL group FE team, based on our template project and ElementUI
 ## Preview
 
 ![](https://raw.githubusercontent.com/dreambo8563/vscode-TAL-FE-Snippets/master/images/snippets.gif)
+![](https://raw.githubusercontent.com/dreambo8563/vscode-TAL-FE-Snippets/master/images/form_tpl.gif)
 
 ## Release Notes
 
 Users appreciate release notes as you update your extension.
+
+### 0.0.5
+
+vue-html Form Code Template
+
+- tfc -> tal.form.container
+
+```html
+<el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
+  <el-form-item>
+    <el-button type="primary" @click="submitForm('ruleForm')">立即创建</el-button>
+    <el-button @click="resetForm('ruleForm')">重置</el-button>
+  </el-form-item>
+</el-form>
+```
+
+- tfi -> tal.form.input
+
+```html
+<el-form-item label="活动名称" prop="name">
+  <el-input v-model="ruleForm.name"></el-input>
+</el-form-item>
+```
+
+- tfs -> tal.form.select
+
+```html
+<el-form-item label="活动区域" prop="region">
+  <el-select v-model="ruleForm.region" placeholder="请选择活动区域">
+    <el-option label="区域一" value="shanghai"></el-option>
+  </el-select>
+</el-form-item>
+```
+
+- tfdp -> tal.form.datepicker
+
+```html
+<el-form-item label="活动时间" prop="date1">
+  <el-date-picker type="date" placeholder="选择日期" v-model="ruleForm.date1" style="width: 100%;"></el-date-picker>
+</el-form-item>
+```
+
+- tftp -> tal.form.timepicker
+
+```html
+<el-form-item label="活动时间" prop="date2">
+  <el-time-picker type="fixed-time" placeholder="选择时间" v-model="ruleForm.date2" style="width: 100%;"></el-time-picker>
+</el-form-item>
+```
+
+- tfs -> tal.form.switch
+
+```html
+<el-form-item label="即时配送" prop="delivery">
+  <el-switch v-model="ruleForm.delivery"></el-switch>
+</el-form-item>
+```
+
+- tfcg -> tal.form.checkboxgroup
+
+```html
+<el-form-item label="活动性质" prop="type">
+  <el-checkbox-group v-model="ruleForm.type">
+    <el-checkbox label="美食/餐厅线上活动" name="type"></el-checkbox>
+    <el-checkbox label="地推活动" name="type"></el-checkbox>
+  </el-checkbox-group>
+</el-form-item>
+```
+
+- tfrg -> tal.form.radiogroup
+
+```html
+<el-form-item label="特殊资源" prop="resource">
+  <el-radio-group v-model="ruleForm.resource">
+    <el-radio label="线上品牌商赞助"></el-radio>
+  </el-radio-group>
+</el-form-item>
+```
 
 ### 0.0.4
 

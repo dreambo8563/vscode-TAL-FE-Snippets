@@ -2,7 +2,7 @@
   "name": "tal-fe-snippets",
   "displayName": "TAL-FE-ElementUI-Snippets",
   "description": "some code template for our vue project based on element-ui",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/dreambo8563/vscode-TAL-FE-Snippets.git"
@@ -20,6 +20,10 @@
       {
         "language": "javascript",
         "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/html.json"
       }
     ]
   }
