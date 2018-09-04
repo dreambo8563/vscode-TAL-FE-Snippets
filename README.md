@@ -15,6 +15,59 @@ Just for TAL group FE team, based on our template project and ElementUI
 
 Users appreciate release notes as you update your extension.
 
+### 0.0.6
+
+vue-html Form Code Template
+
+- tftrp -> tal.form.datetimerangepicker
+
+```html
+ <el-date-picker v-model="value4" type="datetimerange" range-separator="至" start-placeholder="开始日期" end-placeholder="结束日期">
+      </el-date-picker>
+```
+
+- ttt -> tal.table.table
+
+```html
+<el-table :data="tableData" stripe style="width: 100%">
+      <el-table-column prop="date" label="日期" width="180">
+      </el-table-column>
+      <el-table-column prop="name" label="姓名" width="180">
+      </el-table-column>
+      <el-table-column fixed="right" label="操作" width="100">
+        <template slot-scope="scope">
+          <el-button @click="handleClick(scope.row)" type="text" size="small">查看</el-button>
+          <el-button type="text" size="small">编辑</el-button>
+        </template>
+      </el-table-column>
+    </el-table>
+```
+
+- ttp -> tal.table.pagination
+
+```html
+<el-pagination layout="prev, pager, next" :total="50">
+</el-pagination>
+```
+
+- tbp -> tal.button.primary
+
+```html
+<el-button type="primary" round>主要按钮</el-button>
+```
+
+- tbs -> tal.button.success
+
+```html
+<el-button type="success" round>成功按钮</el-button>
+```
+
+- tbw -> tal.button.warning
+
+```html
+<el-button type="warning" round>警告按钮</el-button>
+```
+
 ### 0.0.5
 
 vue-html Form Code Template

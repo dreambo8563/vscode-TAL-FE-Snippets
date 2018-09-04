@@ -80,5 +80,52 @@
       "</el-form-item>"
     ],
     "description": "radiogroup as formItem"
+  },
+  "tal.form.datetimerangepicker": {
+    "prefix": "tftrp",
+    "body": [
+      "<el-date-picker v-model=\"value4\" type=\"datetimerange\" range-separator=\"至\" start-placeholder=\"开始日期\" end-placeholder=\"结束日期\">",
+      "</el-date-picker>"
+    ],
+    "description": "date range picker"
+  },
+  "tal.table.table": {
+    "prefix": "ttt",
+    "body": [
+      "<el-table :data=\"tableData\" stripe style=\"width: 100%\">",
+      "\t<el-table-column prop=\"date\" label=\"日期\" width=\"180\"></el-table-column>",
+      "\t<el-table-column prop=\"name\" label=\"姓名\" width=\"180\"></el-table-column>",
+      "\t<el-table-column fixed=\"right\" label=\"操作\" width=\"100\">",
+      "\t\t<template slot-scope=\"scope\">",
+      "\t\t\t<el-button @click=\"handleClick(scope.row)\" type=\"text\" size=\"small\">查看</el-button>",
+      "\t\t\t<el-button type=\"text\" size=\"small\">编辑</el-button>",
+      "\t\t</template>",
+      "\t</el-table-column>",
+      "</el-table>"
+    ],
+    "description": "table"
+  },
+  "tal.table.pagination": {
+    "prefix": "ttp",
+    "body": [
+      "<el-pagination layout=\"prev, pager, next\" :total=\"50\">",
+      "/el-pagination>"
+    ],
+    "description": "Pagination"
+  },
+  "tal.button.primary": {
+    "prefix": "tbp",
+    "body": ["<el-button type=\"primary\" round>主要按钮</el-button>"],
+    "description": "primary button"
+  },
+  "tal.button.success": {
+    "prefix": "tbs",
+    "body": ["<el-button type=\"success\" round>成功按钮</el-button>"],
+    "description": "success button"
+  },
+  "tal.button.warning": {
+    "prefix": "tbw",
+    "body": ["<el-button type=\"warning\" round>警告按钮</el-button>"],
+    "description": "warning button"
   }
 }
