@@ -3,7 +3,7 @@
     "prefix": "tfs",
     "body": [
       "submitForm(formName) {",
-      "\tthis.$refs[formName].validate(valid => {",
+      "\tthis.\\$refs[formName].validate(valid => {",
       "\tif (valid) {",
       "\t// TODO: get the postData and ajax",
       " } else {",
@@ -43,7 +43,7 @@
     "prefix": "tfr",
     "body": [
       "resetForm(formName) {",
-      "\tthis.$refs[formName].resetFields();",
+      "\tthis.\\$refs[formName].resetFields();",
       "}"
     ],
     "description": "Code snippet to reset form"
@@ -102,7 +102,7 @@
   "tal.message.success": {
     "prefix": "tms",
     "body": [
-      "this.$message({",
+      "this.\\$message({",
       "\tmessage: '恭喜你，这是一条成功消息',",
       "\ttype: 'success'",
       "});"
@@ -112,7 +112,7 @@
   "tal.message.warning": {
     "prefix": "tmw",
     "body": [
-      "this.$message({",
+      "this.\\$message({",
       "\tmessage: '警告哦，这是一条警告消息',",
       "\ttype: 'warning'",
       "});"
@@ -121,7 +121,7 @@
   },
   "tal.message.error": {
     "prefix": "tme",
-    "body": ["this.$message.error('错了哦，这是一条错误消息');"],
+    "body": ["this.\\$message.error('错了哦，这是一条错误消息');"],
     "description": "Code snippet for error message"
   }
 }

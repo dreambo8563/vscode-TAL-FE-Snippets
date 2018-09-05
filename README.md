@@ -15,6 +15,10 @@ Just for TAL group FE team, based on our template project and ElementUI
 
 Users appreciate release notes as you update your extension.
 
+### 0.0.7
+
+- hot fix for $ issue in snippets
+
 ### 0.0.6
 
 vue-html Form Code Template
