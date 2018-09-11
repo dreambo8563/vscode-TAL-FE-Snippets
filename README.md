@@ -15,6 +15,46 @@ Just for TAL group FE team, based on our template project and ElementUI
 
 Users appreciate release notes as you update your extension.
 
+### 0.0.8
+
+- tns -> tal.notify.success
+
+```js
+this.$notify({
+  title: "成功",
+  message: "这是一条成功的提示消息",
+  type: "success"
+})
+```
+
+- tnw -> tal.notify.warning
+
+```js
+this.$notify({
+  title: "警告",
+  message: "这是一条警告的提示消息",
+  type: "warning"
+})
+```
+
+- tni -> tal.notify.info
+
+```js
+this.$notify.info({
+  title: "消息",
+  message: "这是一条消息的提示消息"
+})
+```
+
+- tne -> tal.notify.error
+
+```js
+this.$notify.error({
+  title: "错误",
+  message: "这是一条错误的提示消息"
+})
+```
+
 ### 0.0.7
 
 - hot fix for $ issue in snippets

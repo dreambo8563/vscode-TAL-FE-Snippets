@@ -123,5 +123,47 @@
     "prefix": "tme",
     "body": ["this.\\$message.error('错了哦，这是一条错误消息');"],
     "description": "Code snippet for error message"
+  },
+  "tal.notify.success": {
+    "prefix": "tns",
+    "body": [
+      "this.\\$notify({",
+      "\ttitle: '成功',",
+      "\tmessage: '这是一条成功的提示消息',",
+      "\ttype: 'success'",
+      "});"
+    ],
+    "description": "Code snippet for success notify message"
+  },
+  "tal.notify.warning": {
+    "prefix": "tnw",
+    "body": [
+      "this.\\$notify({",
+      "\ttitle: '警告',",
+      "\tmessage: '这是一条警告的提示消息',",
+      "\ttype: 'warning'",
+      "});"
+    ],
+    "description": "Code snippet for warning notify message"
+  },
+  "tal.notify.info": {
+    "prefix": "tni",
+    "body": [
+      "this.\\$notify.info({",
+      "\ttitle: '消息',",
+      "\tmessage: '这是一条消息的提示消息',",
+      "});"
+    ],
+    "description": "Code snippet for info notify message"
+  },
+  "tal.notify.error": {
+    "prefix": "tne",
+    "body": [
+      "this.\\$notify.error({",
+      "\ttitle: '错误',",
+      "\tmessage: '这是一条错误的提示消息',",
+      "});"
+    ],
+    "description": "Code snippet for error notify message"
   }
 }
