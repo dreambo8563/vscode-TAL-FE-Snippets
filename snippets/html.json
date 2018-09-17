@@ -109,7 +109,7 @@
     "prefix": "ttp",
     "body": [
       "<el-pagination layout=\"prev, pager, next\" :total=\"50\">",
-      "/el-pagination>"
+      "</el-pagination>"
     ],
     "description": "Pagination"
   },
