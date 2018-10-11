@@ -15,6 +15,10 @@ Just for TAL group FE team, based on our template project and ElementUI
 
 Users appreciate release notes as you update your extension.
 
+### 0.0.10
+
+- quick fix for tal.form.watch-refresh
+
 ### 0.0.9
 
 - quick fix for tal.table.pagination

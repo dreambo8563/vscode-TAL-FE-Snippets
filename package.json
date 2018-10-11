@@ -2,7 +2,7 @@
   "name": "tal-fe-snippets",
   "displayName": "TAL-FE-ElementUI-Snippets",
   "description": "some code template for our vue project based on element-ui",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "repository": {
     "type": "git",
     "url": "https://github.com/dreambo8563/vscode-TAL-FE-Snippets.git"
