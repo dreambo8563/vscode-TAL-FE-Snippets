@@ -1,5 +1,7 @@
 # README
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dreambo8563/vscode-TAL-FE-Snippets.svg)](https://greenkeeper.io/)
+
 To have a better coding efficiency, we need a tool to help us repreat lots of code template, based on element-ui
 
 ## Requirements
